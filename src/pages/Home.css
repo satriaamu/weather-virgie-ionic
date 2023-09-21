@@ -1,0 +1,48 @@
+/* Container styling */
+ion-content {
+  background-color: #efbf21f1;
+}
+
+/* Header styling */
+ion-toolbar {
+  --background: linear-gradient(to bottom, #3880ff, #0099cc);
+  --color: #c8de21;
+  text-align: center;
+  padding: 20px 0;
+}
+
+ion-title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+ion-title h1 {
+  margin: 0;
+}
+
+ion-title h2 {
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Search bar styling */
+ion-searchbar {
+  --background: #fff;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+ion-button {
+  --background: #e6e6e6;
+  --color: #1a576a;
+  --border-radius: 10px;
+  font-weight: bold;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
